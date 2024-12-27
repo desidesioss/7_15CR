@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.EditEntityController">
+    <TextField fx:id="nameField" promptText="Name" AnchorPane.topAnchor="10" AnchorPane.leftAnchor="10"/>
+    <TextField fx:id="descriptionField" promptText="Description" AnchorPane.topAnchor="50" AnchorPane.leftAnchor="10"/>
+    <Button text="Save" onAction="#handleSave" AnchorPane.topAnchor="100" AnchorPane.leftAnchor="10"/>
+    <Button text="Cancel" onAction="#handleCancel" AnchorPane.topAnchor="100" AnchorPane.leftAnchor="100"/>
+</AnchorPane>
